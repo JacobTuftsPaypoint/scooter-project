@@ -1,5 +1,6 @@
 class Scooter{
   constructor(Station,User){
+    this.MaximumRange = 32000
     this.Station = Station
     this.User = User
     this.Serial = Math.floor(Math.random()*1000)
